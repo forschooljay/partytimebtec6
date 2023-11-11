@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Party Time</title>
+<link rel="stylesheet" href="allcss.css">
+</head>
+<body>
+    <div class="containerhome">
+        <div class="header">
+            <div class="topnav">
+                <a class="active" href="index1.html">Home</a>
+                <a href="package1.html">Package</a>
+                <a href="contact-us1.html">Contact Us</a>
+                <a href="checkout1.html">Check Out</a>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Search.." name="search">
+                      <button type="submit"><img src="picture/search.png" style="width: 15px;height: 15px;"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="centerflex">
+                <h1>Party Time</h1>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>This Month Promotion</h2
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet ligula ut auctor. Nullam ac efficitur nulla. Sed eu lacus augue. Vivamus aliquam nunc eros. </p>
+                <ul>
+                    <li class="btn active"></li>
+                    <li class="btn"></li>
+                    <li class="btn"></li>
+                </ul>
+                </div>
+                <div class="col-2">
+                    <img src="picture/pro1.jpg" id="banner">
+                </div>
+
+                <script>
+                    var btn = document.getElementsByClassName("btn");
+                    var banner = document.getElementById("banner")
+
+                    btn[0].onclick = function(){
+                        banner.src = "picture/pro1.jpg";
+ 
+                        this.classList.add("active");
+                    }
+
+                    btn[1].onclick = function(){
+                        banner.src = "picture/pro2.jpg";
+
+                        this.classList.add("active");
+                    }
+
+                    btn[2].onclick = function(){
+                        banner.src = "picture/pro3.png";
+ 
+                        this.classList.add("active");
+                    }
+
+                    
+                </script>
+
+            </div>
+
+        </div>
+        <div class="main">
+            <a href="product1.html"><img src="picture/wedbeach.jpg" style="width: 90%;"></a>
+            <h2>Wedding on the beach</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet ligula ut auctor. Nullam ac efficitur nulla. Sed eu lacus augue. Vivamus aliquam nunc eros. </p>
+            <a href="product1.html"><img src="picture/wedhotel.jpg" style="width: 90%;"></a>
+            <h2>Wedding in hotel</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet ligula ut auctor. Nullam ac efficitur nulla. Sed eu lacus augue. Vivamus aliquam nunc eros. </p>
+        </div>
+        <div class="main2">
+            <a href="product1.html"><img src="picture/night.jpg" style="width:90%;"></a>
+            <h2>Night Club</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet ligula ut auctor. Nullam ac efficitur nulla. Sed eu lacus augue. Vivamus aliquam nunc eros. </p>
+            <a href="product1.html"><img src="picture/tea.avif" style="width:90%;"></a>
+            <h2>Tea event</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet ligula ut auctor. Nullam ac efficitur nulla. Sed eu lacus augue. Vivamus aliquam nunc eros. </p>
+
+        </div>
+        <div class="main3">
+            <a href="product1.html"><img src="picture/halloween.jpeg" style="width:90%;"></a>
+            <h2>Halloween Costumes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet ligula ut auctor. Nullam ac efficitur nulla. Sed eu lacus augue. Vivamus aliquam nunc eros. </p>
+            <a href="product1.html"><img src="picture/sock.jpg" style="width:80%;"></a>
+            <h2>Christmas sock</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet ligula ut auctor. Nullam ac efficitur nulla. Sed eu lacus augue. Vivamus aliquam nunc eros. </p>
+        
+        </div>
+        <div class="footer" style="background-color:#D82976;">
+            <div class="centerflex">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada imperdiet ligula ut auctor. Nullam ac efficitur nulla. Sed eu lacus augue. Vivamus aliquam nunc eros.</p>
+            </div>
+            <div class="centerflex">
+                <h3>© copyright</h3>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
